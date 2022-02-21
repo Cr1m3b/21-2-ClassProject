@@ -17,7 +17,8 @@ namespace ConsoleApp2
             Console.WriteLine("Hello world");
             Print();
             Console.Write("Give your Name: ");
-            String s1 = Console.ReadLine();
+            var s1 = Console.ReadLine();
+            Console.WriteLine("Hello "+s1);
         }
         public static void Print()
         {
