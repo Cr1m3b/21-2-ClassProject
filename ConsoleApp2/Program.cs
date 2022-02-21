@@ -15,9 +15,9 @@ namespace ConsoleApp2
             Console.WriteLine("Hello world");
             Console.WriteLine("Hello world");
             Console.WriteLine("Hello world");
-
+            Print();
         }
-        public void Print()
+        public static void Print()
         {
             Console.WriteLine("I am the print");
         }
